@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:widgetLayout="@drawable/background">
+<PreferenceCategory 
+        android:title="title main"
+        android:key="pref_key_alarm_settings">
+        <CheckBoxPreference
+            android:key="pref_key_alarm_enable"
+            android:summary="lunch a sound alarm when it catchs a working internet connection"
+            android:title="Enable Alarm"
+            android:defaultValue="true"/>
+        <RingtonePreference
+            android:dependency="pref_key_alarm_enable"
+            android:key="pref_key_alarm_tone"
+            android:title="Custom alarm"
+            android:ringtoneType="notification"
+             />
+        <CheckBoxPreference 
+            android:key="pref_key_vibrate_enable"
+            android:summary="vibrate your phone when it catchs a working internet connection"
+            android:defaultValue="true"
+            android:title="Enable Vibrate"/>
+        <CheckBoxPreference 
+            android:key="pref_key_notification_enable"
+            android:summary="fire a notification when it catchs a working internet connection"
+            android:defaultValue="true"
+            android:title="Enable Notification"/>
+    </PreferenceCategory>
+</PreferenceScreen>

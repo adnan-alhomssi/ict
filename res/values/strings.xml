@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Internet checker</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">How to use</string>
+    <string name="checking">Checking...</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="aboutEn">This free app is very useful for syrian Internet users, and all who have poor Internet service.\n
+When the Internet connection is down the app will keep checking it until it`s up again, and then the app will notify you about it.\n
+To contact us, report bugs :\n
+internetconnectionchecker@gmail.com\n
+Developed by Adnanonline</string>
+    <string name="aboutAr">ArAr</string>
+    <string name="helpEn">
+When your Internet connection is down :\n
+- Open the app.\n
+- Press "Check My Internet" button.\n
+- The app will check your Internet connection.\n
+- When you are connected to the Internet the app will notify you.\n
+You can change the notification way from the app`s settings page.\n
+The phone must be connected to the wi-fi which has no Internet access.\n
+For any questions :\n
+internetconnectionchecker@gmail.com
+    </string>
+    <string name="helpAr">
+عندما ينقطع اتصالك بالانترنت:\n
+- افتح التطبيق.\n
+- اضغط زر "Check My Internet" .\n
+- سوف يقوم التطبيق بالتحقق من اتصالك.\n
+- عندما تتصل بالانترنت سيقوم التطبيق بتنبيهك.\n
+يمكنك اختيار طريقة التنبيه من صفحة اعدادات التطبيق.\n
+يجب ان يكون الهاتف متصلا بشبكة ال"wi-fi" المقطوع عنها الانترنت. \n
+لأية سؤال او استفسار: \n
+internetconnectionchecker@gmail.com        
+    </string>
+    <string name="title_activity_help">How to use</string>
+    <string name="version">Version 1.0.5</string>
+
+</resources>
